@@ -1,6 +1,5 @@
-
 import React from 'react';
-import Map from '../src/components/Map'
+import Map from './components/Map'
 
 const App: React.FC = () => {
 
