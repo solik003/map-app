@@ -1,4 +1,5 @@
 import Map, { Marker as MapMarker } from "react-map-gl";
+import React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import useFirebaseToken from "../hooks/useFirebaseToken";
 import useMarkers from "../hooks/useMarkers";
