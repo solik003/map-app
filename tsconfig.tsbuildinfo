@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/firebaseapi.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/map.tsx","./src/hooks/usefirebaseaddrecord.ts","./src/hooks/usefirebasetoken.ts","./src/hooks/usemarkers.ts"],"errors":true,"version":"5.6.3"}

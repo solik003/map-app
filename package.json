@@ -1,13 +1,17 @@
 {
+  "homepage": "https://solik003.github.io/map-app",
   "name": "map-markers-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.3",
